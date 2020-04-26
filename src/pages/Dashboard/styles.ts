@@ -34,6 +34,10 @@ export const Form = styled.form<FormProps>`
     &::placeholder {
       color: #a8a8b3;
     }
+
+    @media (max-width: 450px) {
+      height: 50px;
+    }
   }
 
   button {
@@ -48,6 +52,10 @@ export const Form = styled.form<FormProps>`
 
     &:hover {
       background: ${shade(0.2, '#04d361')};
+    }
+
+    @media (max-width: 450px) {
+      height: 50px;
     }
   }
 `;
